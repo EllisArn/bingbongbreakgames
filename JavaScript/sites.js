@@ -22,7 +22,6 @@ const renderHangman = () => {
     <div id="hangman-word"></div>
     </div>
     <div id="button-container"></div>`
-    console.log(main.innerHTML)
   import('./exports/hangman.js').then((module) => {
     module.displayInputfield()
   })
