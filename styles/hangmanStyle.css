@@ -102,6 +102,10 @@ button {
   font-size: 20px;
 }
 
+#submitButton {
+  width: auto;
+}
+
 #endButtonContainer {
   display: flex;
   flex-direction: row;
