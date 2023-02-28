@@ -8,7 +8,7 @@ const renderHome = () => {
   title.innerHTML = 'BingBongBreakGames'
   nav.innerHTML = `<a href="/bingbongbreakgames"><h1>Home</h1></a>`
   main.innerHTML = `<a class="homePageButtonContainer" href="#hangman"><button class="homePageButton">Hangman</button></a>
-    <a class="homePageButtonContainer" href="#numberguesser"><button class="homePageButton">NumberGuesser</button></a>`
+    <a class="homePageButtonContainer" href="#numberguesser"><button class="homePageButton">Number Guesser</button></a>`
 }
 
 const renderHangman = () => {
@@ -30,7 +30,7 @@ const renderHangman = () => {
 const renderNumberGuesser = () => {
   stylesheet.href = '/bingbongbreakgames/styles/numberGuesserStyle.css'
   title.innerHTML = 'NumberGuesser'
-  nav.innerHTML = `<a href="/bingbongbreakgames"><h1>NumberGuesser</h1></a>`
+  nav.innerHTML = `<a href="/bingbongbreakgames"><h1>Number Guesser</h1></a>`
   main.innerHTML = `<h1 id="outputfield">
   Gib eine Zahl ein, die als Zahlenmenge dienen wird
 </h1>
