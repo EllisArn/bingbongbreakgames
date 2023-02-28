@@ -1,10 +1,13 @@
 *:not(button, input) {
   color: white;
-  word-wrap: break-word;
 }
 
 * {
   font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  color-scheme: dark;
 }
 
 body {
@@ -30,7 +33,6 @@ nav {
   grid-area: nav;
   width: auto;
   padding: 30px;
-  word-break: break-all;
 }
 
 main {
