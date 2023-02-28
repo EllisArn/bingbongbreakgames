@@ -30,7 +30,7 @@ export function preGame() {
 
 function startGame() {
   inputfield.onkeydown = null
-  maxNumber = inputfield.value
+  maxNumber = parseInt(inputfield.value)
   randomNumber = Math.floor(Math.random() * maxNumber + 1)
   outputfield.innerHTML = `Gib eine Zahl zwischen 1 und ${maxNumber} ein`
   inputfield.value = ''
@@ -46,7 +46,7 @@ function startGame() {
 }
 
 function checkNumber() {
-  const number = inputfield.value
+  const number = parseInt(inputfield.value)
   if (number > maxNumber) {
     outputfield.innerHTML = `Die Zahl muss zwischen 1 und ${maxNumber} sein`
   } else if (number < 1) {
