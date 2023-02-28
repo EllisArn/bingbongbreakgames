@@ -3,16 +3,11 @@ const hangmanWord = document.getElementById('hangman-word')
 const buttonContainer = document.getElementById('button-container')
 const submitButton = document.querySelector('#submitButton')
 const inputfield = document.querySelector('#inputfield')
+
 let guesses = ''
 let numberOfGuesses = 0
 let numberOfWrongGuesses = 0
 let wordToGuess = ''
-
-console.log('test')
-
-if (guesses === '') {
-  displayInputfield()
-}
 
 export function displayInputfield() {
   inputfield.addEventListener('input', (e) => {
