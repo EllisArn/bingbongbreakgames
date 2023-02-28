@@ -16,7 +16,9 @@ const renderHangman = () => {
   title.innerHTML = 'Hangman'
   nav.innerHTML = `<a href="/bingbongbreakgames"><h1>Hangman</h1></a>`
   main.innerHTML = `<div id="hangman-container">
-    <div id="hangman"></div>
+    <div id="hangman">
+    <input type="text" id="inputfield" placeholder="Gib ein Wort ein" />
+    <button id="submitButton">Submit</button></div>
     <div id="hangman-word"></div>
     </div>
     <div id="button-container"></div>`
